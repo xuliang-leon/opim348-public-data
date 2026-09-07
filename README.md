@@ -2,6 +2,10 @@
 
 Public data files used by the OPIM348 Supply Chain Analytics Colab exercises.
 
+## Week 2
+
+- `week02/fiesta-gifts-transactions.xlsx` contains 104,033 Fiesta Gifts transaction records and 20 fields covering purchase dates, invoices, SKUs, item types, quantities, prices, customers, suppliers, distribution centres, and transport distances. It supports the Week 2 pandas exercises in inspection, filtering, aggregation, joining, and visualization.
+
 ## Week 3
 
 - `week03/hm_ladieswear_articles_sample.csv` contains 2,000 H&M Ladieswear product records with product names, product and garment groups, visual attributes, colours, descriptions, image filenames, observed sales-week bounds, and observed units. `article_id` is stored as a zero-padded 10-digit key so it joins directly to the embedding and weekly-sales files.

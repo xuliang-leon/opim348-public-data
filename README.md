@@ -2,6 +2,10 @@
 
 Public data files used by the OPIM348 Supply Chain Analytics Colab exercises.
 
+## Homework
+
+- [`homework/hw1`](homework/hw1) contains the four datasets used in Homework 1: candy-bar clustering, Fiesta Gifts supplier ABC analysis, gym-enrollment KNN modeling, and gym forecast scoring. The folder README provides direct raw-file URLs for Python and Colab.
+
 ## Week 2
 
 - `week02/fiesta-gifts-transactions.xlsx` contains 104,033 Fiesta Gifts transaction records and 20 fields covering purchase dates, invoices, SKUs, item types, quantities, prices, customers, suppliers, distribution centres, and transport distances. It supports the Week 2 pandas exercises in inspection, filtering, aggregation, joining, and visualization.

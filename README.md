@@ -18,8 +18,15 @@ Public data files used by the OPIM348 Supply Chain Analytics Colab exercises.
 
 The visual clusters in the course notebook are constructed from image embeddings only. Sales are joined afterward to evaluate descriptive associations with total observed product sales.
 
-## Source and limitations
+### Week 3 source and limitations
 
 The files are derived for classroom use from the [H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data) competition data. Use is subject to the competition rules.
 
 Recorded transactions do not reveal complete inventory, availability, stockouts, promotion, or verified product launch dates. The classroom analysis must not interpret cluster-level sales differences as causal effects of visual style.
+
+## Week 7
+
+- [`week07/sales_store_729.csv`](week07/sales_store_729.csv) contains daily sales records for store 729 across multiple items.
+- [`week07/sales_store_729_item.csv`](week07/sales_store_729_item.csv) contains the daily records for item 2004092 used in the forecasting and replenishment lecture.
+
+These files record sales rather than uncensored customer demand. A stockout may hide demand that could not be fulfilled.

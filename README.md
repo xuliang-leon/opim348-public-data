@@ -30,3 +30,11 @@ Recorded transactions do not reveal complete inventory, availability, stockouts,
 - [`week07/sales_store_729_item.csv`](week07/sales_store_729_item.csv) contains the daily records for item 2004092 used in the forecasting and replenishment lecture.
 
 These files record sales rather than uncensored customer demand. A stockout may hide demand that could not be fulfilled.
+
+## Week 11
+
+- [`week11/tlc_uber_zone161_2023-01-06_to_08.csv`](week11/tlc_uber_zone161_2023-01-06_to_08.csv) contains a public NYC TLC sample of 12,357 completed Uber trips for the demand-estimation exercise.
+- [`week11/uber_surge_rdd_classroom_synthetic.csv`](week11/uber_surge_rdd_classroom_synthetic.csv) contains synthetic aggregates for the price-endogeneity and RDD classroom exercise.
+- [`week11/hotel_booking_history_2023_2025.csv`](week11/hotel_booking_history_2023_2025.csv) contains three years of simulated hotel booking snapshots for the EMSR-b exercise.
+
+See the [Week 11 data guide](week11/README.md) for source details, limitations, and direct Colab download links.
